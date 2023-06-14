@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffff">
+    android:background="#ffff"
+    tools:context=".LoginActivity">
 
 
     <ImageView
@@ -44,7 +45,7 @@
                 android:textSize="40sp"
                 android:textStyle="bold"
                 android:layout_gravity="center"
-               android:layout_marginTop="80dp"
+                android:layout_marginTop="80dp"
                 android:layout_marginBottom="80dp"/>
 
             <EditText
